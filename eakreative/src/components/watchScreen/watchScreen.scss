@@ -1,0 +1,15 @@
+.watchScreen {
+    .container {
+        max-width: none;
+        padding: 0px 60px 0px 70px;
+    }
+    &-body {
+        padding-top: 120px;
+
+        &__player {
+            height: 500px;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+    }
+}

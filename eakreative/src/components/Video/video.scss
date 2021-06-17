@@ -1,0 +1,55 @@
+.video {
+    margin-bottom: 1 rem;
+    padding: 0.7 rem;
+    margin-right: 25px;
+
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #fff;
+    cursor: pointer;
+    &__top {
+        margin-bottom: 0.5rem;
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+        span {
+            position: absolute;
+            color: #fff;
+            bottom: 0.3rem;
+            right: 0.3rem;
+
+            padding: 0.2rem;
+            background: #080808ec;
+        }
+    }
+    &__title {
+        margin-bottom: 0.1rem;
+        color: #fff;
+        font-size: 20px;
+        overflow: hidden;
+        // display: -webkit-box;
+        //-webkit-line-clamp: 1;
+        //-webkit-box-orient: vertical;
+    }
+    &__details {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    &__channel {
+        padding: 10px 0px 40px 0px;
+        display: flex;
+        align-items: center;
+        margin: 0.5 rem 0;
+
+        img {
+            width: 36px;
+            height: 36px;
+            margin-right: 0.5rem;
+            cursor: pointer;
+            border-radius: 30px;
+        }
+    }
+}
